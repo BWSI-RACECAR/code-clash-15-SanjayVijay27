@@ -39,7 +39,7 @@ class Solution:
     def interval_scheduling(self, intervals):
             #type intervals: list of int tuples
             #return type: list of int tuples
-            intervals.sort()
+            # intervals.sort()
             
             #TODO: Write code below to return an int tuples list with the solution to the prompt.
             possible_list = [[i] for i in intervals]
